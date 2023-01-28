@@ -1,0 +1,32 @@
+.home{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    flex-direction: column;
+}
+
+.home__container{
+    text-align: center;
+}
+
+.home__container > input,textarea{
+    width: 250px;
+    padding: 15px 20px;
+    font-size: 20px;
+    outline: none;
+    border: 1px solid rgb(192,188,188);
+    border-radius: 5px;
+    resize: none;
+}
+
+.home__container > button{
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 15px;
+    background-color: rgb(124, 197, 147);
+    color: white;
+    cursor: pointer;
+}
